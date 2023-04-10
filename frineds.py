@@ -11,7 +11,7 @@ auth_token = os.getenv('TWILIO_AUTH_TOKEN')
 client = Client(account_sid, auth_token)
 
 # List of phone numbers to send messages to
-phone_numbers = ['+16232971176']
+phone_numbers = ['']
 
 # Send a message to each phone number
 for number in phone_numbers:
